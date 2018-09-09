@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+         <script>
+             var height = parseFloat(prompt("Nhap chieu cao : (cao 1m70 thi nhap vao 1.7)",''));
+             var weight = parseFloat(prompt("Nhap can nang :",''));
+             bmi =weight/(height*height);
+             console.log(bmi);
+             if (bmi < 18)
+                alert("Underweight");
+             else if (bmi < 25.0)
+                 alert("Normal");
+             else if (bmi < 30.0)
+                 alert("Overweight");
+             else
+                 alert("Obese");
+
+         </script>
+</body>
+</html>
